@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+}
+.logo{
+    width: 328px;
+    height: 149px;
+    margin-left: 2%;
+}
+#page{
+    width: 75%;
+    margin: 0 auto;
+}
+aside{
+    float: right;
+    border: 1px solid;
+    border-bottom-color: coral;
+    margin: 1%;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: table;
+}
+section h4,h2,i{
+    text-align: center!important;
+}
+/* image styles */
+#page img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+}
+/* image style ends*/
+
+#page div{
+    border: 1px dashed;
+    border-bottom-color: coral;
+    margin: 1%;
+
+}
+.nav-bg-color{
+    background-color: #d33a2c!important;
+    padding: 1em 0;
+    color: #fff;
+    position: relative;
+    min-height: 170px;
+}
+#electronics img{
+    margin: 1%;
+}
+#Cloths img{
+    margin: 1%;
+}
+#Toys img{
+    margin: 1%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    width: 78%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.nav-li {
+    min-height: 140px;
+    padding: 3px;
+    color: #fff;
+    margin: 0;
+}
+a{
+    color: #fff !important;
+    padding-top: 0px !important;
+}
+.search-box{
+    margin:0 auto;
+    /*position: relative;*/
+}
