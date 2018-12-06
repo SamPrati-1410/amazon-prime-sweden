@@ -1,4 +1,4 @@
-## amazon-prime-sweden ( Class room Test )
+## amazon-prime-sweden ( Class room Test;Duration:3 Hours )
 
 #Requirements
 
@@ -30,3 +30,5 @@ It should be possible to sort on the price.
 Products should be sorted at rising price.
 There should be a button on the page with which will be asked by name, which will then be added at the end of each product name.
 Use meta tags to google to easily find the page that sells: China gadgets in Helsingborg
+
+https://samprati-1410.github.io/amazon-prime-sweden/
